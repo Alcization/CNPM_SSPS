@@ -1,0 +1,23 @@
+.navigation {
+    display: flex;
+    gap: 39px;
+    color: #000;
+    text-align: center;
+    font: 400 32px Inter, sans-serif;
+  }
+  
+  .navItem {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* .navItem:first-child {
+    font-weight: 900;
+  } */
+  
+  @media (max-width: 991px) {
+    .navigation {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }

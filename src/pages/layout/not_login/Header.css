@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    max-width: 1815px;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px 100px;
+}
+
+@media (max-width: 991px) {
+  .headerContent {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

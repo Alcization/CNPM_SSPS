@@ -1,0 +1,85 @@
+.introSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 62px 80px;
+    font-family: Inter, sans-serif;
+    color: #000;
+    margin-top: 30px;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+  
+  .contentWrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 1692px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .title_about {
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 20px;
+    max-width: 1274px;
+    font-weight: 500;
+  }
+  
+  .establishmentInfo {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    max-width: 1284px;
+    width: 100%;
+  }
+  
+  .subtitle {
+    font-size: 64px;
+    font-weight: 500;
+    align-self: flex-end;
+  }
+  
+  .details {
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 991px) {
+    .introSection {
+      padding: 100px 20px 0;
+    }
+  
+    .title {
+      font-size: 40px;
+    }
+  
+    .subtitle {
+      font-size: 40px;
+    }
+  
+    .description,
+    .details {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }

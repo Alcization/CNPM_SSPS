@@ -1,0 +1,66 @@
+.mainContent {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 1514px;
+  }
+  
+  .heroSection {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .heroText {
+    flex: 0 0 56%;
+  }
+  
+  .heroTitle {
+    color: #0d99ff;
+    font: 400 64px 'Finger Paint', -apple-system, Roboto, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .largeText {
+    font-size: 80px;
+  }
+  
+  .smallText {
+    font-size: 32px;
+  }
+  
+  .heroImageWrapper {
+    flex: 0 0 44%;
+  }
+  
+  .heroImage {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 70px;
+  }
+  
+  @media (max-width: 991px) {
+    .mainContent {
+      margin-top: 45px;
+    }
+  
+    .heroSection {
+      flex-direction: column;
+    }
+  
+    .heroTitle {
+      font-size: 40px;
+    }
+  
+    .largeText {
+      font-size: 60px;
+    }
+  
+    .smallText {
+      font-size: 24px;
+    }
+  
+    .heroImage {
+      margin-top: 40px;
+    }
+  }

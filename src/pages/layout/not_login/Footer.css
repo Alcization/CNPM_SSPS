@@ -1,0 +1,16 @@
+.footer {
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    color: #6c757d;
+    text-align: center;
+    padding: 34px 70px;
+    font: 400 20px/1.2 'Source Sans Pro', -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .footer {
+      margin-top: 40px;
+      padding: 20px;
+    }
+  }

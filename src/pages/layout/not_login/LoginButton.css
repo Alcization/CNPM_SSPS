@@ -1,0 +1,17 @@
+.loginButton {
+    border-radius: 20px;
+    background-color: #0d99ff;
+    color: #fff;
+    text-align: center;
+    padding: 25px 24px;
+    font: 500 32px Inter, sans-serif;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .loginButton {
+      padding: 15px 20px;
+      font-size: 24px;
+    }
+  }

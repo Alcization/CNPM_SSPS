@@ -41,7 +41,6 @@ npm start
 cd client
 npm run dev
 ```
-`~/src/utils/firebase/firebase.js`
 
 ### 4. Thông tin đăng nhập mẫu
 Admin 

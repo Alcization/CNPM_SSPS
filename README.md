@@ -50,16 +50,16 @@ Student
 Email: student@hcmut.edu.vn  --- Password: student
 
 ## Người đóng góp
-Nguyễn Khánh Lộc - 2211927 - Lớp L01
-Âu Nguyễn Hùng Mạnh - 2211991
-Huỳnh Phát Lộc - 2211917
-Dương Hồ Hoàng Phúc - 2212607
-Đinh Công Minh - 2212027
-Nguyễn Nhật Tân - 2213059
-Võ Hữu Khang - 2211479
-Liêu Hy Đinh - 2210758
-Lê Thị Thu Thủy - 2213379
-Nguyễn Hoàng Minh - 2212057
+* Nguyễn Khánh Lộc - 2211927 - Lớp L01
+* Âu Nguyễn Hùng Mạnh - 2211991
+* Huỳnh Phát Lộc - 2211917
+* Dương Hồ Hoàng Phúc - 2212607
+* Đinh Công Minh - 2212027
+* Nguyễn Nhật Tân - 2213059
+* Võ Hữu Khang - 2211479
+* Liêu Hy Đinh - 2210758
+* Lê Thị Thu Thủy - 2213379
+* Nguyễn Hoàng Minh - 2212057
 
 
 # React + Vite

@@ -1,0 +1,90 @@
+[
+    {
+    "id": 1,
+    "manufacturer": "Canon",
+    "model": "MAXIFY GX5070",
+    "description": "Máy in laser đen trắng",
+    "building": "H3",
+    "room": "101"
+    },
+    {
+    "id": 2,
+    "manufacturer": "Epson",
+    "model": "WorkForce AL-C300DN",
+    "description": "Máy in siêu tốc",
+    "building": "H3",
+    "room": "101"
+    },
+    {
+    "id": 3,
+    "manufacturer": "Fujitsu",
+    "model": "Dot Matrix DL7600",
+    "description": "Máy hỏng liên tục",
+    "building": "H3",
+    "room": "101"
+    },
+    {
+    "id": 4,
+    "manufacturer": "IBM",
+    "model": "Infoprint 1332N",
+    "description": "Máy rất cũ",
+    "building": "H3",
+    "room": "101"
+    },
+    {
+    "id": 5,
+    "manufacturer": "Canon",
+    "model": "MAXIFY GX5070",
+    "description": "Máy in laser đen trắng",
+    "building": "H3",
+    "room": "101"
+    },
+    {
+    "id": 6,
+    "manufacturer": "Canon",
+    "model": "MAXIFY GX5070",
+    "description": "Máy in laser đen trắng",
+    "building": "H3",
+    "room": "101"
+    },
+    {
+    "id": 7,
+    "manufacturer": "Canon",
+    "model": "MAXIFY GX5070",
+    "description": "Máy in laser đen trắng",
+    "building": "H3",
+    "room": "101"
+    },
+    {
+    "id": 8,
+    "manufacturer": "Canon",
+    "model": "MAXIFY GX5070",
+    "description": "Máy in laser đen trắng",
+    "building": "H3",
+    "room": "101"
+    },
+    {
+    "id": 9,
+    "manufacturer": "Canon",
+    "model": "MAXIFY GX5070",
+    "description": "Máy in laser đen trắng",
+    "building": "H3",
+    "room": "101"
+    },
+    {
+    "id": 10,
+    "manufacturer": "Canon",
+    "model": "MAXIFY GX5070",
+    "description": "Máy in laser đen trắng",
+    "building": "H3",
+    "room": "101"
+    },    
+    {
+    "id": 11,
+    "manufacturer": "Canon",
+    "model": "MAXIFY GX5070",
+    "description": "Máy in laser đen trắng",
+    "building": "H3",
+    "room": "101"
+    }
+]

@@ -8,8 +8,11 @@ function MainComponent() {
     return (
         <div>
             <Header />
-            <Sidebar />
-            <Outlet />
+            <div className='grid-container'>
+                <div className='grid-menu'><Sidebar /></div>
+                <div className='grid-main'><Outlet /></div>
+            </div>
+
         </div>
     );
 };

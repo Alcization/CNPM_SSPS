@@ -1,0 +1,46 @@
+.HCMUT-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-left: 2.5em;
+}
+
+.HCMUT-logo__img {
+  width: 100%;
+  height: 100%;
+}
+
+#HCMUT-id {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: row;
+  width: 60%;
+  position: absolute;
+  left: 1em;
+  top: 1.5em;
+}
+
+.HCMUT-slogan {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+.HCMUT-slogan-nav-link {
+  text-decoration: none;
+}
+
+.HCMUT-slogan-nav-link .line1 {
+  font-weight: 600;
+}
+
+.HCMUT-slogan-nav-link p {
+  color: black;
+  font-size: 1.2em;
+  margin: 0;
+}

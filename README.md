@@ -1,2 +1,9 @@
 # React + Vite
-Assignment CNPM 241 on Student Smart Printing Service
+
+Admin 
+
+Email: admin@hcmut.edu.vn  --- Password: admin
+
+Student
+
+Email: student@hcmut.edu.vn  --- Password: student

@@ -1,0 +1,229 @@
+.report-body p {
+  margin-bottom: 0;
+}
+
+/* toggled-button */
+.toggle-button {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 160px;
+  width: 48px;
+  height: 24px;
+  background-color: #4b9cfc;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.toggle-button .indicator {
+  background: white;
+  border-radius: 50%;
+  transform: scale(0.9);
+  width: 18px;
+  height: 18px;
+  margin-left: 0.1em;
+  transition: 1s;
+}
+
+.toggled {
+  justify-content: right;
+  padding-right: 0.1em;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 1);
+  transition: 1s;
+}
+
+.toggle-button.toggled .indicator {
+  background: linear-gradient(to bottom, #444, #222);
+  transition: 1s;
+}
+
+.chooseState {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  width: 14vw;
+}
+
+.chooseState-new,
+.chooseState-old {
+  font-size: 2vh;
+  font-weight: 600;
+}
+
+/* định dạng body */
+.report {
+  width: 100%;
+  height: 100%;
+}
+
+.report-body {
+  border-left: 1px solid rgba(0, 0, 0, 0.282);
+  border-top: 1px solid rgba(0, 0, 0, 0.282);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  width: 90vw;
+  height: 89vh;
+}
+
+/* tiêu đề */
+.report-body .title {
+  padding: 0.4em 2em;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 15px;
+  width: fit-content;
+  margin: 0;
+}
+
+/* mốc thời gian */
+.time-option {
+  width: fit-content;
+}
+
+.time-option .toggle-button {
+  margin: 0 0.7em;
+}
+
+.calendar {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+.calendar-btn {
+  background: none;
+  border: none;
+  padding: 0.4em;
+}
+
+.calendar-btn i {
+  color: black;
+}
+
+.dateOfPrinting {
+  margin-right: 0.6em;
+}
+
+/* thời gian */
+.information {
+  transform: translate(-4em, -2em);
+}
+
+/* tổng số trang in */
+.report-body label {
+  font-size: 1.3em;
+  margin-bottom: 0.3em;
+}
+
+.number-of-printing-paper {
+  border: 1px solid black;
+  margin-right: 1em;
+  padding: 0.3em 0;
+  height: 35vh;
+}
+
+.report-body .line-one {
+  height: 38vh;
+  margin-left: 1em;
+  margin-right: 1em;
+  transform: translateY(-2em);
+}
+
+.bar-chart-1 {
+  width: 25vw;
+  height: 25vh;
+}
+
+.number-of-printing-paper .number {
+  font-size: 1.3em;
+  font-weight: 800;
+}
+
+.number-of-printer {
+  margin-bottom: 2em;
+}
+.number-of-printer p,
+.sum-of-printing-page p {
+  width: fit-content;
+}
+
+/* trạng thái máy in */
+.printer-state {
+  border: 1px solid black;
+  height: 35vh;
+  padding: 0.3em 1em;
+}
+
+.percent {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.printer-state-infor .state {
+  margin-top: 2em;
+}
+
+.printer-state .blue,
+.printer-state .green,
+.printer-state .pink {
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+.printer-state .blue,
+.printer-state .green {
+  margin-bottom: 0.5em;
+}
+
+.pie-chart-1 {
+  width: 20vw;
+  height: 20vh;
+}
+
+/* Trung bình tần suất in trong ngày */
+.report-body .line-two {
+  height: 34.9vh;
+  margin-left: 1em;
+  margin-right: 1em;
+  transform: translateY(-2em);
+}
+
+.average-frequency-print {
+  border: 1px solid black;
+  height: fit-content;
+  margin-left: 2.8em;
+  height: 37vh;
+}
+
+.bar-chart-2 {
+  width: 29vw;
+  height: 29vh;
+}
+
+/* khổ trang in */
+.paper-size {
+  border: 1px solid black;
+  height: 38vh;
+  margin-left: 1em;
+}
+
+.paper-size label {
+  margin-bottom: 3em;
+  margin-top: 0.5em;
+}
+
+.size .white-pink,
+.size .pink {
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+.size .pink {
+  margin-bottom: 0.5em;
+}
+
+.pie-chart-2 {
+  width: 20vw;
+  height: 20vh;
+}

@@ -1,0 +1,48 @@
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  width: 10vw;
+}
+
+.block {
+  border-bottom: 1px solid black;
+  height: 6vh;
+}
+
+.block-home {
+  border-top: 1px solid black;
+}
+.block-link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+}
+
+.block-link i {
+  font-size: 3.5vh;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+
+.block-link p {
+  margin: 0;
+  padding: 0;
+}
+
+.block-link.active {
+  background-color: #0d99ff;
+}
+
+.block-link-config p {
+  margin-left: 2.5em;
+}
+
+.block-link-config.active {
+  background-color: #a4d9ff;
+}

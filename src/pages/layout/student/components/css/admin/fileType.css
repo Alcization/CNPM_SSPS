@@ -1,0 +1,146 @@
+.fileType {
+  width: 100%;
+  height: 100%;
+}
+
+.file-type-body {
+  border-left: 1px solid rgba(0, 0, 0, 0.282);
+  border-top: 1px solid rgba(0, 0, 0, 0.282);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  width: 90vw;
+  height: 89vh;
+  padding: 2em 5em 0 3em;
+}
+
+/* bảng các định dạng file */
+.filesName,
+.editFileConstraint {
+  padding: 0;
+}
+
+.filesName {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 43vw;
+  height: 75vh;
+}
+
+.filesName-header {
+  border-bottom: 1px solid black;
+  padding: 1em 0;
+}
+
+.filesName-header p {
+  margin-right: 0.5em;
+}
+
+.filesName .deleteIcon i {
+  background: #f5707a;
+  padding: 0.5em;
+  border-radius: 5px;
+  color: white;
+}
+
+.filesName-body {
+  padding: 0.5em 0;
+}
+
+/* Thêm định dạng file */
+.fileType-add {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 30vw;
+  height: 40vh;
+  margin-bottom: 2em;
+}
+
+.fileType-add .title {
+  border-bottom: 1px solid black;
+  padding: 1em;
+  text-align: center;
+  font-size: 1em;
+}
+
+.fileType-add .fileType-add-content {
+  padding: 2em 0.7em 0 2.5em;
+}
+
+.fileType-add-extension,
+.fileType-add-typical {
+  margin-bottom: 1em;
+}
+
+.fileType-add-input {
+  width: 17vw;
+  padding: 0.8em 1em;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-right: 3em;
+  background-color: white;
+}
+
+.fileType-add-btn {
+  background-color: #4b9cfc;
+  padding: 0.6em 1.2em;
+  font-size: 0.9em;
+  color: white;
+  border-radius: 15px;
+  margin-top: 0.5em;
+}
+
+.fileType-add-btn p {
+  margin: 0 0 0 0.4em;
+}
+
+/* kích thước file tối đa */
+.fileSize {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 30vw;
+  height: 30vh;
+}
+
+.fileSize .title {
+  border-bottom: 1px solid black;
+  padding: 1em;
+  text-align: center;
+  font-size: 1em;
+}
+
+.fileSize-btn {
+  background-color: #4b9cfc;
+  padding: 0.6em 1.2em;
+  font-size: 0.9em;
+  color: white;
+  border-radius: 15px;
+  margin-top: 0.8em;
+  margin-left: 2em;
+}
+
+.fileSize-btn p {
+  margin: 0 0 0 0.4em;
+}
+
+.fileSize-number {
+  margin-top: 2.5em;
+}
+
+.numberSize-input {
+  width: 17vw;
+  margin-left: 1.5em;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0.5em 5em;
+  font-size: 1.2em;
+}
+
+.fileSize-arrow {
+  transform: translateX(-5em);
+}
+
+.fileSize-number .unit {
+  transform: translateX(-3em);
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0;
+}

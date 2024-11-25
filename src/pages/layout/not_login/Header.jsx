@@ -6,7 +6,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className="header_1">
       <div className="headerContent">
         <Logo_header />
         <Navigation />

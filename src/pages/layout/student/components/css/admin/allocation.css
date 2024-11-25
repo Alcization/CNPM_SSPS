@@ -1,0 +1,205 @@
+.allocation {
+  height: 100%;
+  width: 100%;
+}
+
+.allocationBody {
+  padding: 6em 2em 0 2em;
+  border-left: 1px solid rgba(0, 0, 0, 0.282);
+  border-top: 1px solid rgba(0, 0, 0, 0.282);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  height: 89vh;
+}
+
+/* lọc kết quả và nút thêm lịch */
+.trigger {
+  margin: 0;
+}
+
+.trigger-filterResults,
+.trigger-addCalendar {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.trigger-filterResults {
+  border: 1px solid rgba(0, 0, 0, 0.275);
+}
+
+.trigger-addCalendar {
+  background-color: #4b9cfc;
+  color: white;
+}
+
+.trigger-addCalendar .trigger-link {
+  color: white;
+}
+
+.trigger-link {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 6vh;
+  padding: 0;
+}
+
+.trigger-link p {
+  margin: 0 0.5em;
+}
+
+.trigger-filterResults i {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* bảng cấp phát */
+.table-info {
+  margin-top: 1.5em;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.838);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.table {
+  height: 17em;
+}
+
+.table thead {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.849);
+}
+
+.thead-light {
+  border-radius: 10px;
+}
+
+.changeTable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+  margin-top: 1em;
+  transform: translateX(-9em);
+}
+
+.changeTable i {
+  font-size: 3.5vh;
+}
+
+.lastTable,
+.nextTable {
+  width: 6vw;
+}
+
+/* thanh thay đổi bảng */
+.chooseTable {
+  margin-top: 3em;
+  padding-right: 9em;
+}
+
+.chooseTable .btn-square {
+  margin: 0 0.5em;
+  padding: 0.75em 2em;
+}
+
+.numOfTable {
+  font-size: 2vh;
+}
+
+/* lọc dữ liệu của bảng */
+.filterResults-form {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterResults-form label {
+  margin-bottom: 0.2em;
+  font-size: 2vh;
+  font-weight: 600;
+}
+
+.filterResults-form .form-control {
+  width: 16vw;
+  margin-bottom: 1em;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.filterResults-form .btn-submit {
+  margin-bottom: 0.1em;
+  width: 30%;
+}
+
+/* toggle-button */
+.toggle-button {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 160px;
+  width: 48px;
+  height: 24px;
+  background-color: #4b9cfc;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.toggle-button .indicator {
+  background: white;
+  border-radius: 50%;
+  transform: scale(0.9);
+  width: 18px;
+  height: 18px;
+  margin-left: 0.1em;
+  transition: 1s;
+}
+
+.toggled {
+  justify-content: right;
+  padding-right: 0.1em;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 1);
+  transition: 1s;
+}
+
+.toggle-button.toggled .indicator {
+  background: linear-gradient(to bottom, #444, #222);
+  transition: 1s;
+}
+
+.chooseState {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  width: 14vw;
+}
+
+.chooseState-new,
+.chooseState-old {
+  font-size: 2vh;
+  font-weight: 600;
+}
+
+.btn-submit {
+  background-color: #4b9cfc;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  height: 5vh;
+  width: 1px;
+}

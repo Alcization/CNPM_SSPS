@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "datetime": "1/10/2024 8:00 AM",
+    "pages": 20,
+    "total_cost": 4000
+  },
+  {
+    "id": 2,
+    "datetime": "2/10/2024 9:00 AM",
+    "pages": 50,
+    "total_cost": 10000
+  },
+  {
+    "id": 3,
+    "datetime": "3/10/2024 10:00 AM",
+    "pages": 50,
+    "total_cost": 10000
+  },
+  {
+    "id": 4,
+    "datetime": "4/10/2024 11:00 AM",
+    "pages": 100,
+    "total_cost": 20000
+  },
+  {
+    "id": 5,
+    "datetime": "5/10/2024 12:00 PM",
+    "pages": 25,
+    "total_cost": 5000
+  },
+  {
+    "id": 6,
+    "datetime": "6/10/2024 1:00 PM",
+    "pages": 30,
+    "total_cost": 6000
+  },
+  {
+    "id": 7,
+    "datetime": "7/10/2024 2:00 PM",
+    "pages": 15,
+    "total_cost": 3000
+  },
+  {
+    "id": 8,
+    "datetime": "8/10/2024 3:00 PM",
+    "pages": 20,
+    "total_cost": 4000
+  },
+  {
+    "id": 9,
+    "datetime": "9/10/2024 4:00 PM",
+    "pages": 10,
+    "total_cost": 2000
+  },
+  {
+    "id": 10,
+    "datetime": "10/10/2024 5:00 PM",
+    "pages": 30,
+    "total_cost": 6000
+  }
+]

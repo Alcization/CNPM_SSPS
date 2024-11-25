@@ -1,0 +1,164 @@
+.addCalendar {
+  height: 100%;
+  width: 100%;
+}
+
+.addCalendarBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 180vh;
+  height: 89vh;
+  border-left: 1px solid rgba(0, 0, 0, 0.282);
+  border-top: 1px solid rgba(0, 0, 0, 0.282);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  padding-top: 0.75em;
+}
+
+/* AddAllocationCalendar */
+.addAllocationCalendar {
+  border: 1px solid black;
+  width: 83%;
+  height: auto;
+}
+
+/* AddAllocationCalendar title*/
+.addAllocationCalendar .content {
+  border-bottom: 1px solid black;
+}
+
+.addAllocationCalendar .content .title {
+  font-size: 3vh;
+  font-weight: 800;
+  margin: 1em;
+}
+
+/* AddAllocationCalendar form*/
+.addCalendar-form,
+.addSemester-form {
+  margin: 0 5em 1em 4em;
+}
+
+.addCalendar-infor label {
+  margin: 0.75em 0;
+}
+
+/*addCalendar-semester-control*/
+.addCalendar-semester-control,
+.addSemester-control {
+  width: 10em;
+  padding: 0.5em 1em;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+/* schoolYear-content */
+.schoolYear-content {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: fit-content;
+  padding: 0.3em 2em;
+  font-size: 1em;
+}
+
+.schoolYear-content p {
+  margin-right: 0.4em;
+}
+
+.schoolYear-trigger i {
+  cursor: pointer;
+}
+
+/* allocationDay-content */
+.allocationDay-content,
+.startSchoolSemester-content {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: fit-content;
+  padding: 0.5em 1em;
+}
+
+.allocationDay-content select,
+.addSemester-infor select {
+  text-align: center;
+  width: fit-content;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.186);
+  border-radius: 15px;
+  padding: 0.3em;
+}
+
+/* numOfPaper */
+.addCalendar-numOfPaper-control {
+  width: 6em;
+  padding: 0.65em 0;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+/* addCalendar-trigger */
+.addCalendar-trigger {
+  margin-top: 1.5em;
+  justify-content: right;
+}
+
+.addCalendar-trigger-link {
+  text-decoration: none;
+}
+.addCalendar-trigger-btn {
+  border: none;
+  margin: 0 1em;
+}
+
+.addCalendar-trigger-btn.triggerCancel {
+  background: #f5707a;
+  color: white;
+  text-align: center;
+  padding: 0.5em 2em;
+  border-radius: 10px;
+}
+
+.addCalendar-trigger-btn.triggerAdd {
+  text-decoration: none;
+  background-color: #4b9cfc;
+  color: white;
+  padding: 0.5em 2.2em 0.5em 0.7em;
+  border-radius: 10px;
+}
+
+.addCalendar-trigger-btn.triggerAdd i {
+  margin-right: 1em;
+}
+
+/* addSemester */
+.addSemester {
+  border: 1px solid black;
+  margin-top: 0.5em;
+  width: 83%;
+}
+
+.addSemester .content {
+  border-bottom: 1px solid black;
+}
+
+.addSemester .content .title {
+  font-size: 3vh;
+  font-weight: 800;
+  margin: 1em;
+}
+
+.addSemester-infor label {
+  margin: 0.5em;
+}
+
+.addAllocationCalendar p,
+.addSemester p {
+  margin-bottom: 0;
+}
+
+/* input focus */
+input:focus {
+  outline: none;
+}

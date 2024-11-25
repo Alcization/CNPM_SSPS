@@ -1,0 +1,109 @@
+.student-info{
+    padding: 1vh;
+    font-size: 1.5em;
+}
+
+.container_student_info {
+    margin-top: 0px;
+}
+
+.student-label{
+    padding-left: 2vw;
+}
+.student-value {
+    padding-right: 2vw;
+}
+.student-img{
+    width: 40%;
+}
+.all-status{
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+}
+.status-on-going{
+    background-color: rgb(253,167,40,0.3);
+    color: rgb(214, 129, 2);
+}
+.status-not{
+    background-color: rgb(237,81,80,0.3);
+    color: rgb(237,81,80);
+}
+.status-complete{
+    background-color: #48b3ff4d;
+    color: rgb(0, 149, 255);
+}
+.student-value{
+    color: rgb(74, 74, 74);
+}
+
+.main-page-detail{
+    position: relative;
+    
+
+}
+.avatar{
+    
+    position: relative;
+    float: left;
+    left: 20%;
+   
+    transform: translateX(-50%);
+    text-align: center;
+    align-items: center;
+    width: 30vh;
+    height:30vh;
+    font-weight: bold;
+   
+    padding: 5vh 5vh 5vh 5vh;
+   
+    color: white;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    border-radius: 50%;
+}
+.info-block2{
+    
+    display: flex;
+    margin-right: 9vw;
+    padding-right: 10vw;
+    width: 70vw;
+    height: 60 vh;
+    font-weight: bold;
+    justify-content: end;
+ 
+   
+}
+.info2{
+    /* background-color: rgb(240, 235, 235); */
+    width: 35vw;
+    border-radius: 10px;
+    height: 55%;
+    border: 1px solid rgb(255, 254, 254);
+}
+.med-info{
+    position: relative;
+    margin-left: 10vw;
+    border-radius: 10px;
+    width: 60%;
+}
+.pen-to-square-icon {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    left: 37vw;
+}
+.pen-to-square-icon:hover{
+    cursor: pointer;
+    color: gray;
+}
+.treat-page{
+    margin-top: 7vh;
+    min-height: 100vh;
+}

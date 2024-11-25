@@ -1,6 +1,5 @@
 import React from 'react';
 import './ServiceContent.css';
-import book_icon from '../../../assets/Book.jpg'
 import print_icon from '../../../assets/printer.png'
 import check_square_icon from '../../../assets/check-square.png'
 
@@ -13,12 +12,6 @@ const ServiceSection = () => {
             <span className="titleDot"></span>
         </h1>
         <section className="serviceSection">
-          
-          <article className="serviceCard">
-            <img src={book_icon} alt="" className="serviceIcon" />
-            <h2 className="serviceTitle">Thư viện tài liệu</h2>
-            <p className="serviceDescription">Đa dạng các loại tài liệu phục vụ cho nhu cầu học tập</p>
-          </article>
 
           <article className="serviceCard">
             <img src={print_icon} alt="" className="serviceIcon" />

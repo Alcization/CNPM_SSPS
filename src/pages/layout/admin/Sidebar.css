@@ -10,7 +10,7 @@
     text-align: right;
     font: 500 24px Inter, sans-serif;
     max-width: 230px;
-    max-height: 872px;
+    max-height: 848px;
 }
 
 .nav_Item {
@@ -23,8 +23,9 @@
     
 }
 
-.nav_Item:hover {
-    background-color: lightblue;
+a.nav_Item:hover {
+    cursor: pointer;
+    color: red;
 }
 
 .icon_ {

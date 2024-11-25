@@ -1,0 +1,141 @@
+.upLoadFile1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+/*chooseFile*/
+.chooseFile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 7em;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.chooseFile-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+
+.chooseFile-trigger__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 65%;
+  height: 50%;
+}
+
+.chooseFile-notify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4em;
+}
+
+.chooseFile-notify .content {
+  transform: translateY(0.3em);
+}
+
+.chooseFile-notify i {
+  transform: translateY(-0.2em);
+  font-size: 1.5em;
+}
+
+.chooseFile-img {
+  width: 45%;
+  height: 45%;
+  margin-top: 0.5em;
+}
+
+.chooseFile-trigger p, .chooseFile-notify .fileName {
+  font-weight: bold;
+  margin: 0;
+}
+.chooseFile-trigger__block {
+  color: #22222265;
+  margin-bottom: 0.5em;
+  border-radius: 15px;
+}
+
+.chooseFile-trigger__block p {
+  margin: 0.2em;
+}
+
+.chooseFile-notify .content .notify {
+  color: #3276E8;
+  font-weight: 600;
+}
+
+.chooseFile-notify button {
+  border: none;
+  background: none;
+}
+
+/*printingInfo*/
+.col {
+  display: flex;
+  justify-content:flex-start;
+  align-items: left;
+  flex-direction: column;
+}
+
+.printingInfo {
+  margin: 2em 7em;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.printingInfo .row {
+  margin: 3em 6em;
+}
+
+.printingInfo .col p {
+  margin: 0;
+}
+
+.printingInfo .col input, .printingInfo .col select {
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+  background-color: #EDF5F4;
+  border: none;
+  width: 75%;
+}
+
+/*trigger button*/
+.trigger {
+  margin: 2em 7em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.trigger-btn {
+  background-color: #0D99FF;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.trigger-btn-continue {
+  position: absolute;
+  top: 0;
+  right: 47%;
+}
+
+.trigger-btn-cancel {
+  padding: 0.5em;
+}
+
+.trigger-btn-continue {
+  padding: 0.5em 1.5em;
+}

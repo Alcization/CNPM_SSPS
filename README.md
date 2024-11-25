@@ -21,24 +21,20 @@ cd CNPM_SSPS
 NodeJS: Nếu chưa có NodeJS, tải và cài đặt từ trang chủ NodeJS.
 Cài đặt dependencies cho server (Backend):
 ```bash
-cd server
 npm install
 ```
 Frontend (client, Vite):
 ```bash
-cd ../client
 npm install
 ```
 ### 3. Chạy ứng dụng
 **Backend:**
 ```bash
-cd server
 npm start
 ```
 
 **Frontend:**
 ```bash
-cd client
 npm run dev
 ```
 

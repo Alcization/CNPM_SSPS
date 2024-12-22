@@ -1,12 +1,13 @@
 
 
-trước mắt pull code về
+## Hướng dẫn cài đặt
 
 - chạy lệnh npm install
 
 - tiếp theo là cần phải cài đặt docker trước khi sử dụng
 
 - sau khi cài đặt docker chạy docker compose up -d trong folder BTL_SE
+- 
 - sau đó thêm file .env với các biến như sau:
 
 URI_RABBITMQ=amqp://guest:12345@localhost

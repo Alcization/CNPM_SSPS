@@ -6,7 +6,6 @@ import printer from '../../../assets/printer small.png';
 import slider from '../../../assets/sliders.png';
 import chart from '../../../assets/bar-chart-2.png';
 import clipboard from '../../../assets/clipboard.png';
-import book from '../../../assets/book.png';
 import user from '../../../assets/user_icon.png';
 import clock from '../../../assets/clock.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,8 +19,7 @@ const navItems = [
   { icon_: { chart }, label_: "Báo cáo", centered: true, link_: "admin/report" },
   { icon_: { clock }, label_: "Lịch sử in", centered: true, link_: "admin/history" },
   { icon_: { clipboard }, label_: "Lịch sử mua", centered: true, link_: "admin/admin_payment" },
-  // { icon_: {book}, label_: "Thư viện", marginTop: true, link_: "admin/library" },
-  // { icon_: { user }, label_: "Người dùng", marginTop: true, link_: "admin/users" }
+  { icon_: { user }, label_: "Người dùng", marginTop: true, link_: "admin/users" }
 ];
 
 const LeftSidebar = () => {

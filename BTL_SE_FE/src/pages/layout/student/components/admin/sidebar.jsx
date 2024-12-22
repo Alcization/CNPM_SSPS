@@ -92,16 +92,6 @@ function Admin() {
           <p>Lịch sử</p>
         </NavLink>
       </div>
-      <div className="block block-library">
-        <NavLink
-          to="/library"
-          className="block-link"
-          onClick={() => handleButtonClick("button6")}
-        >
-          <i class="bx bx-book-open"></i>
-          <p>Thư viện</p>
-        </NavLink>
-      </div>
       <div className="block block-user">
         <NavLink
           to="/user"

@@ -38,13 +38,6 @@ npm start
 npm run dev
 ```
 
-### 4. Thông tin đăng nhập mẫu
-Admin 
-Email: admin@hcmut.edu.vn  --- Password: admin
-
-Student
-Email: student@hcmut.edu.vn  --- Password: student
-
 ## Người đóng góp
 * Nguyễn Khánh Lộc - 2211927 - Lớp L01
 * Âu Nguyễn Hùng Mạnh - 2211991
@@ -56,7 +49,3 @@ Email: student@hcmut.edu.vn  --- Password: student
 * Liêu Hy Đinh - 2210758
 * Lê Thị Thu Thủy - 2213379
 * Nguyễn Hoàng Minh - 2212057
-
-
-# React + Vite
-

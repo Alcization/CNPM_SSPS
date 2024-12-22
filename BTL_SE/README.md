@@ -1,14 +1,14 @@
 
 
-## Hướng dẫn cài đặt
+## Hướng dẫn cài đặt Backend
 
-- chạy lệnh npm install
+- Chạy lệnh npm install
 
-- tiếp theo là cần phải cài đặt docker trước khi sử dụng
+- Tiếp theo là cần phải cài đặt docker trước khi sử dụng
 
-- sau khi cài đặt docker chạy docker compose up -d trong folder BTL_SE
+- Sau khi cài đặt docker chạy docker compose up -d trong folder BTL_SE
 
-- sau đó thêm file .env với các biến như sau:
+- Sau đó thêm file .env với các biến như sau:
 
 URI_RABBITMQ=amqp://guest:12345@localhost
 <!-- URL của cloud redis -->

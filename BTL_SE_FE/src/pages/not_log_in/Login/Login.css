@@ -1,0 +1,146 @@
+.loginPage {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1650px;
+  }
+  
+  .content {
+    margin-top: 2rem;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .formSection {
+    width: 50%;
+  }
+  
+  .formWrapper {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #2f2f2f;
+    padding: 65px 80px 65px;
+    font: 400 12px Inter, sans-serif;
+    border: 1px solid #a7a7a7;
+    margin-top: 50px;
+  }
+  
+  .logo_i {
+    width: 100px;
+    align-self: center;
+    max-width: 100%;
+  }
+  
+  .title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    align-self: center;
+    margin-top: 24px;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 38px;
+  }
+
+  input:focus{
+    outline: none;
+}
+  
+  .inputWrapper {
+    border-radius: 8px;
+    background-color: #ececec;
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    padding: 15px 23px;
+  }
+  
+  .inputIcon {
+    width: 30px;
+  }
+  
+  .input {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+  }
+  
+  .passwordToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .passwordToggleIcon {
+    width: 22px;
+  }
+  
+  .loginButton {
+    border-radius: 8px;
+    background-color: #007aff;
+    color: #fff;
+    padding: 28px 70px;
+    font: 600 16px Poppins, sans-serif;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .imageSection {
+    width: 50%;
+    margin-top: 4rem;
+  }
+  
+  .loginImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 991px) {
+    .loginPage {
+      padding: 100px 20px;
+    }
+  
+    .container {
+      max-width: 100%;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 40px;
+    }
+  
+    .formSection,
+    .imageSection {
+      width: 100%;
+    }
+  
+    .formWrapper {
+      max-width: 100%;
+      padding: 15px 20px 67px;
+    }
+  
+    .loginButton {
+      padding: 28px 20px;
+    }
+  
+    .loginImage {
+      max-width: 100%;
+    }
+  }

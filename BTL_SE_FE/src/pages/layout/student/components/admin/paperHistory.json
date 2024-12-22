@@ -1,0 +1,50 @@
+[
+  {
+    "id": 6,
+    "semester": "242",
+    "year": "2024-2025",
+    "date": "1/4/2025",
+    "papers": "20",
+    "status": "Chưa cấp phát"
+  },
+  {
+    "id": 5,
+    "semester": "242",
+    "year": "2024-2025",
+    "date": "1/1/2025",
+    "papers": "20",
+    "status": "Chưa cấp phát"
+  },
+  {
+    "id": 4,
+    "semester": "241",
+    "year": "2024-2025",
+    "date": "1/9/2024",
+    "papers": "20",
+    "status": "Đã cấp phát"
+  },
+  {
+    "id": 3,
+    "semester": "232",
+    "year": "2023-2024",
+    "date": "1/4/2024",
+    "papers": "20",
+    "status": "Đã cấp phát"
+  },
+  {
+    "id": 2,
+    "semester": "232",
+    "year": "2023-2024",
+    "date": "1/1/2024",
+    "papers": "20",
+    "status": "Đã cấp phát"
+  },
+  {
+    "id": 1,
+    "semester": "231",
+    "year": "2023-2024",
+    "date": "1/9/2023",
+    "papers": "20",
+    "status": "Đã cấp phát"
+  }
+]

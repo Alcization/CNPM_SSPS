@@ -5,7 +5,6 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProgressBar from "@ramonak/react-progress-bar";
-import Contentjson from './contentjson.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './printer_status.css';
 import './color.js';
@@ -20,11 +19,9 @@ function MyTable() {
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
 
-    // Get the items for the current page
-    // const currentItems = Contentjson.slice(indexOfFirstItem, indexOfLastItem);
     const currentItems = data.slice(indexOfFirstItem, indexOfLastItem);
     // Calculate the total number of pages
-    const totalPages = Math.ceil(Contentjson.length / itemsPerPage);
+    const totalPages = Math.ceil(data.length / itemsPerPage);
 
     // Create the pagination items
     const paginationItems = [];

@@ -1,5 +1,5 @@
 
-
+Những chỗ trống bạn nên điền đầy đủ bằng thông tin của bạn.
 ## Hướng dẫn cài đặt Backend
 
 - Chạy lệnh npm install
